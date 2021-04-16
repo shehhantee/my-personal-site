@@ -1,0 +1,73 @@
+﻿        h2{
+            text-transform: lowercase;
+            color:orangered;
+            text-align:center;
+        }
+        #id{
+            color:orangered;
+        }
+        h1{
+            color:sandybrown;
+            text-align:right;
+            background-color:Rebeccapurple;
+
+        }
+        h3{
+            color:red;
+        }
+        tr {
+            text-transform : uppercase;
+            font-family:"Time New Roman", Times,serif;
+        }
+        table,th,td{
+            border-style: dotted;
+            border-color: darkSlateblue;
+            border-collapse: collapse;
+            text-align:center;
+        }
+        ol{
+            background-color:lightpink;
+        }
+        li{
+            background-color:lightyellow;
+        }
+#navbar{
+        background-color:mediumturquoise;
+        border-style:solid;
+        border-color:black;
+        border-collapse:collapse;
+        position:sticky;
+    }
+#navbar th{
+    border-style:solid;
+}
+<div class="stats">
+<p>Squirtle's Base Statistics </p>
+    <table>
+        <tr>
+            <td>Ev yield</td>
+            <td>1 Defense</td>
+        </tr>
+        <tr>
+            <td>Catch Rate</td>
+            <td>45(5.9% with Pokeball, full HP)</td>
+        </tr>
+        <tr>
+            <td>Base Happiness</td>
+            <td>70 (normal)</td>
+        </tr>
+        <tr>
+            <td>Growth Rate</td>
+            <td>Medium Slow</td>
+        </tr>
+    </table>
+</div>
+.stats{
+    color:purple;
+}
+.parent{
+    color:red;
+    background-color:Thistle;
+}
+.active{
+	background-color:gold;

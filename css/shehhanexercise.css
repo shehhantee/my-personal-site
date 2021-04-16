@@ -1,0 +1,59 @@
+﻿div{
+    margin:10px;
+    border:5px solid black;
+    padding:10px;
+    width:300px;
+    padding-left:5px;
+    padding-top:10px;
+    padding-right:5px;
+    padding-bottom:10px;
+    padding: 5px 10px 5px 10px;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-top-width:10px;
+    border-bottom-width:10px;
+    margin: 5px 5px 5px 5px;
+}
+
+h2{
+    color:maroon;
+    border:solid;
+    text-align:center;
+    border-width:2px;
+    background-color:mintcream;
+}
+body{
+    font-family:"Segoe UI", Tahoma, sans-serif;
+    background-image:url("../yellow-tile.png")
+}
+header{
+    background-color:mintcream;
+    color:maroon;
+    text-align:center;
+    font-size:25px;
+    border:3px solid;
+}
+.navbar{
+    background-color:maroon;
+    border:solid;
+    font-size:20px;
+}
+.navbar th{
+    border:solid rosybrown;
+    padding:2px;
+}
+footer{
+    color:olive;
+    font-size:12px;
+    padding-left:5px;
+    border:3px solid olive;
+}
+.profile{
+    background-color:white;
+    text-align:center;
+}
+.even-row{
+    background-color:palegoldenrod;
+}
+.active{
+	background-color:salmon;

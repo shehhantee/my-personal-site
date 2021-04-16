@@ -1,0 +1,50 @@
+﻿.fade-in{
+    animation-name: fade-in-animation;
+    animation-duration:10s;
+}
+@keyframes fade-in-animation {
+        from {
+            opacity:0;
+            transform:rotate(280deg);
+    }
+        to {
+            opacity:1;
+            transform:rotate(0deg);
+    }
+
+}
+.expand{
+    animation-name: expand-animation;
+    animation-duration:6s;
+}
+@keyframes expand-animation {
+        from {
+            opacity:0;
+            width:100px;
+    }
+        to {
+            opacity:1;
+            width:300px;
+    }
+
+}
+.blink-blink{
+    animation-name: blink-blink-animation;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes blink-blink-animation{
+    0%{
+        color:white;
+    }
+    40%{
+        color:mediumturqoise;
+    }
+    80%{
+        color:salmon;
+    }
+    100%{
+        color:purple;
+    }
+}
